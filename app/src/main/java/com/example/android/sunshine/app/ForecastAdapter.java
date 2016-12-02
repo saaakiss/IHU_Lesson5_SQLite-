@@ -1,3 +1,7 @@
+/*
+Uom Android mobile development
+Added to project: lesson 7
+ */
 package com.example.android.sunshine.app;
 
 import android.content.Context;
