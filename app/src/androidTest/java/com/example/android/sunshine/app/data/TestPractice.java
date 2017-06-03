@@ -17,13 +17,19 @@ public class TestPractice extends AndroidTestCase {
         int c = 5;
         int d = 10;
 
-        assertEquals("X should be equal", a, c);
-        assertTrue("Y should be true", d > a);
-        assertFalse("Z should be false", a == b);
+        //assertEquals("X should be equal", a, c);
+        //assertTrue("Y should be true", d > a);
+        //assertFalse("Z should be false", a == b);
+
+        assertEquals(8,add(5,3));
 
         if (b > d) {
             fail("XX should never happen");
         }
+    }
+
+    public int add(int a, int b){
+        return a + b;
     }
 
     @Override
